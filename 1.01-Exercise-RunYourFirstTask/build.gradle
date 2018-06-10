@@ -25,6 +25,14 @@ task hello {
     description "Hey student! Run this one :D"
     group "Our demo"
     doLast {
-        println "Hello World!"
+        println "Ramiz Raja"
     }
+}
+
+task myHello {
+	description "Hey Ramiz! Run this one please!"
+	group "My demo tasks"
+	doLast {
+		println("Hey, Ramiz Raja")
+	}
 }
